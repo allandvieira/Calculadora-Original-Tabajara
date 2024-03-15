@@ -1,4 +1,4 @@
-# Calculadora Tabajara
+# Calculadora Original Tabajara
 
 Uma calculadora de console simples mais poderosa que permite realizar as quatro operações matemáticas.
 
