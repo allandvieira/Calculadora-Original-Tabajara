@@ -40,18 +40,12 @@
                 // Entrada do primeiro numero
                 Console.WriteLine("\nDigite o primeiro número:");
 
-                string primeiroNumeroString = "";
-
-                primeiroNumeroString = Console.ReadLine();
-
-                double primeiroNumero = Convert.ToDouble(primeiroNumeroString);
+                double primeiroNumero = Convert.ToDouble(Console.ReadLine());
 
                 // Entrada do segundo numero
                 Console.WriteLine("\nDigite o segundo número:");
 
-                string segundoNumeroString = Console.ReadLine();
-
-                double segundoNumero = Convert.ToDouble(segundoNumeroString);
+                double segundoNumero = Convert.ToDouble(Console.ReadLine());
 
                 double resultado = 0;
 
@@ -90,7 +84,7 @@
                     resultado = primeiroNumero / segundoNumero;
                 }
 
-                Console.WriteLine("\nO resultado é: " + resultado);
+                Console.WriteLine("\nO resultado é: " + Math.Round(resultado,2));
 
                 // Resposta do usuário antes de fechar
                 Console.WriteLine("\nPressione 'S' e Enter para fechar o aplicativo ou pressione qualquer outra tecla e Enter para continuar:\n");
